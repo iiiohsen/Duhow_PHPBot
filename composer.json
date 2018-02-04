@@ -19,16 +19,11 @@
     ],
     "require": {
         "php": "^5.5|^7.0",
-        "ext-curl": "*",
+        "ext-curl": "*"
     },
     "autoload": {
         "psr-4": {
-            "Telegram\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Telegram\\": "src/"
+            "Telegram": "src/"
         }
     }
 }
