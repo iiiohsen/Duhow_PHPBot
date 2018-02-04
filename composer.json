@@ -30,7 +30,5 @@
         "psr-4": {
             "Telegram\\": "src/"
         }
-    },
-	"minimum-stability":"dev"
-
+    }
 } 
