@@ -1,0 +1,34 @@
+{
+    "name": "iiiohsen/telegram-bot",
+    "type": "library",
+    "description": "Duhow PHP Telegram bot",
+    "keywords": ["telegram", "bot", "api"],
+    "license": "MIT",
+    "homepage": "https://github.com/iiiohsen/Duhow_PHPBot",
+    "support": {
+        "issues": "https://github.com/iiiohsen/Duhow_PHPBot",
+        "source": "https://github.com/iiiohsen/Duhow_PHPBot"
+    },
+    "authors": [
+        {
+            "name": "Duhow",
+            "email": "mohsen@nazariyan.ir",
+            "homepage": "iiiohsen.ir",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^5.5|^7.0",
+        "ext-curl": "*",
+    },
+    "autoload": {
+        "psr-4": {
+            "Telegram\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Telegram\\": "src/"
+        }
+    }
+}
