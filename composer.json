@@ -13,17 +13,22 @@
         {
             "name": "Duhow",
             "email": "mohsen@nazariyan.ir",
-            "homepage": "iiiohsen.ir",
+            "homepage": "http://iiiohsen.ir",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^5.5|^7.0",
-        "ext-curl": "*"
+        "ext-curl": "*",
     },
     "autoload": {
         "psr-4": {
-            "Telegram": "src/"
+            "Telegram\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Telegram\\": "src/"
         }
     }
 }
